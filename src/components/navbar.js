@@ -7,11 +7,14 @@ class Navigation extends React.Component {
         return (
             <div className="nav-container" >
                 <Navbar>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home">ART FACTORY</Navbar.Brand>
                     <Nav className="mr-auto ml-auto w-100 justify-content-end">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link href="#pricing">About</Nav.Link>
+                        <Nav.Link href="#features">Services</Nav.Link>
+                        <Nav.Link href="#pricing">Freqeuntly questions</Nav.Link>
+                        <Nav.Link href="#home">Drop down</Nav.Link>
+                        <Nav.Link href="#features">Contact us</Nav.Link>
                     </Nav>
                 </Navbar>
             </div>
