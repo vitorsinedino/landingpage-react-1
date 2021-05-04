@@ -2,6 +2,7 @@ div .align-nav{
     flex: 2 2 2% !important;
 }
 nav.navbar{
+    z-index: 10;
     max-width: 1140px;
     margin: 0 auto!important;
     float: none!important;

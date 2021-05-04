@@ -7,7 +7,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Welcome></Welcome>
+        <div className="welcome-container">
+          <Navigation></Navigation>
+          <Welcome></Welcome>
+        </div>
+        
       </header>
     </div>
   );

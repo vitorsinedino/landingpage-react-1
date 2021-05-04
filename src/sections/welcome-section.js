@@ -8,9 +8,8 @@ import './welcome.css';
 class Welcome extends React.Component {
     render() {
         return(
-            <div className="Welcome">
-                <Navigation></Navigation>
-                <div className="row welcome-content">
+            <div className="Welcome" id="welcome-area">
+                <div className="welcome-content">
                     <WelcomeCta></WelcomeCta>
                     <WelcomeImg></WelcomeImg>
                 </div>

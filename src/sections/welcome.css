@@ -1,22 +1,13 @@
 div.Welcome{
-    background-image: url(../assets/banner-bg.png) !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+
 }
 
 #welcome-area{
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 105vh;
-    margin-top: -10vh;
-    background-image: url(../assets/banner-bg.png) !important;
+   
+}
+
+div.welcome-cta{
+    top:60px;
 }
 
 div.welcome-content{
