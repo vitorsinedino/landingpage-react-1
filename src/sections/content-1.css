@@ -1,0 +1,43 @@
+div.content-first{
+    max-width: 1140px;
+    margin: 0 auto!important;
+    float: none!important;
+}
+
+h5.header-about{
+    text-align: left;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 40px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+p.text-about{
+    text-align:left;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+}
+
+a.main-button{
+    float: left;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #00b4c6;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+a.main-button:hover{
+    color: #fff!important;
+    background-color: #0088e8;
+    text-decoration: none!important;
+}
