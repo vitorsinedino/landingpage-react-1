@@ -90,4 +90,25 @@ btn.welcome-button{
         line-height: 22px;
         margin-bottom: 40px;
     }
+    btn.welcome-button{
+        margin-left: -80px;
+        margin-top: 40px!important;
+        position:absolute;
+        font-size: 13px;
+        border-radius: 20px;
+        padding: 6px 20px;
+        background-color: #f55858;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 0.25px;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+    }
+
+    .welcome-text img{
+        margin-top:130px;
+        max-width: 70%;
+    }
 }
