@@ -8,7 +8,7 @@ import './content-1.css';
 class ContentFirst extends React.Component {
     render() {
         return (
-            <Container className="content-first">
+            <Container id="about" className="content-first">
                 <Row>
                     <ContentImg></ContentImg>
                     <ContentCta></ContentCta>

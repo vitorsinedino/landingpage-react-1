@@ -6,6 +6,7 @@ nav.navbar{
     max-width: 1140px;
     margin: 0 auto!important;
     float: none!important;
+    flex-wrap: nowrap!important;
 }
 
 div.nav-container{

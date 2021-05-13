@@ -12,7 +12,7 @@ div.welcome-cta{
 
 div.welcome-content{
     padding-top: 8rem;
-    width: 90%;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -61,6 +61,12 @@ btn.welcome-button{
 }
 
 @media (max-width: 991px){
+    div.welcome-content{
+        padding-top: 1rem;
+    }
+    div.welcome-cta{
+        padding: 0 !important;
+    }
     h1.header-text{
         font-size: 36px;
         line-height: 50px;
@@ -70,17 +76,22 @@ btn.welcome-button{
 
    .welcome-text img{
         margin-top:35px;
+        width: 80%!important;
     }
     
 }
 
 @media (max-width:768px){
+
+    
+
     h1.header-text{
         text-align: center;
         font-weight: 600;
         font-size: 24px !important;
         line-height: 30px !important;
         margin-bottom: 20px !important;
+        padding: 0 auto !important;
     }
 
     p.header-text{
@@ -108,7 +119,7 @@ btn.welcome-button{
     }
 
     .welcome-text img{
-        margin-top:130px;
-        max-width: 70%;
+        margin-top:110px;
+        width: 90%;
     }
 }

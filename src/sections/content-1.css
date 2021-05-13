@@ -1,4 +1,9 @@
 div.content-first{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 1140px;
     margin: 0 auto!important;
     float: none!important;
@@ -40,4 +45,57 @@ a.main-button:hover{
     color: #fff!important;
     background-color: #0088e8;
     text-decoration: none!important;
+}
+
+#about{
+    padding: 120px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+
+@media (max-width: 991px){
+    h5.header-about {
+        text-align:left;
+        font-size: 26px;
+        font-weight: 700;
+        color: #1e1e1e;
+        line-height: 40px;
+        margin-bottom: 25px;
+        letter-spacing: 0.5px;
+    }
+
+    p.text-about {
+        text-align: left;
+        MAX-WIDTH: 600px;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        /* margin-bottom: 40px; */
+    }
+
+    a.main-button {
+        display: block;
+        margin-top: 0px!important;
+       
+        width: 160px;
+        float: left;
+        font-size: 13px;
+        border-radius: 20px;
+        padding: 12px 20px;
+        background-color: #00b4c6;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 0.25px;
+        transition: all 0.3s ease 0s;
+    }
+
+    div.content-first{
+        max-width: 600px!important;
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+    }
+
+    #about > div {
+        margin:0 auto!important;
+    }
 }

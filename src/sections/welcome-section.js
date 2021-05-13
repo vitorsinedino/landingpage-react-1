@@ -11,7 +11,7 @@ class Welcome extends React.Component {
         return(
             <Container>
                 <Row>
-                    <div className="Welcome col-sm-12" id="welcome-area">
+                    <div className="Welcome" id="welcome-area">
                         <div className="welcome-content">
                             <WelcomeCta></WelcomeCta>
                             <WelcomeImg></WelcomeImg>
