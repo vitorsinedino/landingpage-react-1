@@ -4,6 +4,7 @@ import ContentImg from '../components/content-1-img';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import './content-1.css';
+import './content-2.css';
 
 class ContentFirst extends React.Component {
     render() {

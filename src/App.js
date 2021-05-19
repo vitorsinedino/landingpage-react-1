@@ -1,7 +1,8 @@
 import './App.css';
 import Navigation from './components/navbar';
 import Welcome from './sections/welcome-section';
-import ContentFirst from './sections/content-1'
+import ContentFirst from './sections/content-1';
+import ContentSecond from './sections/content-2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Welcome></Welcome>
         </div>
         <ContentFirst></ContentFirst>
+        <ContentSecond></ContentSecond>
       </header>
     </div>
   );

@@ -1,0 +1,48 @@
+div .content-second{
+    padding: 120px 0px;
+}
+
+ul{
+    padding:0;
+    list-style:none!important;
+}
+
+#about2 ul li img{
+    display:inline;
+    float:left;
+    
+}
+
+#about2 ul li .text{
+    margin-left: 80px;
+}
+
+#about2 ul li .text h6{
+    text-align:left;
+    padding-top: 12px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+}
+
+#about2 p{
+    text-align:left;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+#about2 .right-image{
+    align-self: center;
+    transform: translateY(70px);
+}
+
+@media (max-width: 991px){
+    div.content-second {
+        max-width: 600px!important;
+        padding-right: 30px!important;
+        padding-left: 30px!important;
+    }
+}
